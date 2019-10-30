@@ -1,0 +1,53 @@
+#marcador{
+  width: 94%;
+  left:1%; 
+}
+
+#info{
+  left:1%; 
+}
+
+#start, #end{
+  margin-left: 4%;
+}
+
+ion-item{
+  width:95%;
+}
+
+ion-grid{
+  width:330px;
+  left: 5%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.tabela {
+  ion-col {
+    
+    --ion-grid-columns: 3;
+    background: rgb(52, 216, 79);
+    text-align: center;
+    border: 1pt solid black;
+    min-height: 100px;
+    max-height: 100px;
+    min-width: 60px;
+    max-width: 60px;
+  }
+
+  ion-img {
+    min-height: 30px;
+    max-height: 30px;
+    min-width: 30px;
+    max-width: 30px;
+    margin-top: 28px;
+    margin-left: 30px;
+  }
+
+  .ion-text-center {
+    min-height: 80px;
+    max-height: 80px;
+    min-width: 80px;
+    max-width: 80px;
+  }
+}

@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Jogo da Velha
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <section>
+    <ion-item>
+      <ion-input [(ngModel)]="player1" placeholder="Nome do primeiro jogador" required></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-input [(ngModel)]="player2" placeholder="Nome do segundo jogador" required></ion-input>
+      </ion-item>
+    <ion-button color="success" (click)="novoJogo()" expand="block">Novo Jogo</ion-button>
+  </section>
+
+</ion-content>
